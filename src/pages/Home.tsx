@@ -8,6 +8,8 @@ interface citiesList {
   city: string;
 }
 
+// home component
+
 const Home: React.FC = () => {
   useEffect(() => {
     const items = localStorage.getItem("cities_list");

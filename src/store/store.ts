@@ -1,7 +1,7 @@
 import { action, makeObservable, observable, runInAction } from "mobx";
 import { getCurrentWeather } from "../services/weather.service";
 import type { WeatherData } from "../types/types";
-
+// store
 // configure({
 //   useProxies: "never"
 // });

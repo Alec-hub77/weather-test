@@ -26,3 +26,4 @@ const SearchInput = () => {
 };
 
 export default SearchInput;
+//input

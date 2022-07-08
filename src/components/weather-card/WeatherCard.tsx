@@ -67,3 +67,5 @@ const WeatherCard: React.FC<CurrentWeatherProps> = ({ data }) => {
 };
 
 export default observer(WeatherCard);
+
+//weather card
