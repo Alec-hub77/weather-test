@@ -1,0 +1,80 @@
+.current__weather {
+  width: 420px;
+  color: var(--color-gray-light);
+  margin: 20px 10px;
+  background-color: var(--color-dark);
+  border-radius: 10px;
+  overflow: hidden;
+
+  &-date {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: lighten(#323545, 10);
+    .close {
+      margin-left: auto;
+      border: none;
+      font-size: 24px;
+      border-radius: 50%;
+      background-color: #ff0022;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+  }
+
+  &-city {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  &-temp {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    .deg {
+      color: #fff;
+      font-size: 64px;
+      font-weight: 700;
+      margin-right: 20px;
+    }
+    .tem_ico {
+      margin-left: 20px;
+      img {
+        transform: scale(2);
+      }
+    }
+  }
+
+  &-info {
+    padding: 10px;
+    display: flex;
+
+    span {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      margin-right: 10px;
+    }
+    .action-btn {
+      margin-left: auto;
+
+      button {
+        padding: 5px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-gray-light);
+        cursor: pointer;
+      }
+    }
+  }
+}
