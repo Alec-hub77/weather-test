@@ -1,0 +1,15 @@
+.header {
+  background-color: #1e202b;
+  padding: 30px 0;
+  color: #bfc1c8;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      margin-left: 20px;
+    }
+  }
+}

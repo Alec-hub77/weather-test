@@ -1,0 +1,22 @@
+.search__item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: var(--color-gray-light);
+  background-color: var(--color-dark);
+  border-radius: 20px;
+  width: 420px;
+  justify-content: space-between;
+
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-gray-light);
+    cursor: pointer;
+  }
+
+  //   * ~ * {
+  //     margin-left: 20px;
+  //   }
+}

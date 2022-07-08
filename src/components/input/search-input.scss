@@ -1,0 +1,28 @@
+.search__input {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  background-color: #1e202b;
+  border-radius: 30px;
+
+  input {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    border: none;
+    outline: none;
+    background: #1e202b;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  button {
+    margin-right: 6px;
+    padding: 15px 40px;
+    border: none;
+    background-color: #009ad8;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}
